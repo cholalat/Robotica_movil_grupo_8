@@ -1,0 +1,11 @@
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/uninstall.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/cmd_vel_mux_uninstall.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/cmd_vel_mux.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/cmd_vel_mux_node.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/test.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/edit_cache.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/rebuild_cache.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/list_install_components.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/install.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/install/local.dir
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/CMakeFiles/install/strip.dir

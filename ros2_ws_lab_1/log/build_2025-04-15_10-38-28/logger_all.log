@@ -1,0 +1,264 @@
+[0.370s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.370s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x703db2a499f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x703db2bcb3d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x703db2bcb3d0>>, mixin_verb=('build',))
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.634s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_meta']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ros'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_vel_mux' with type 'ros.ament_cmake' and name 'cmd_vel_mux'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba_5) by extension 'ros'
+[0.751s] DEBUG:colcon.colcon_core.package_identification:Package 'src/prueba_5' with type 'ros.ament_python' and name 'prueba_5'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ros'
+[0.771s] DEBUG:colcon.colcon_core.package_identification:Package 'src/very_simple_robot_simulator' with type 'ros.ament_cmake' and name 'very_simple_robot_simulator'
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.942s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install
+[0.943s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install
+[0.945s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_cache' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_first' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_force_configure' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'ament_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.054s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_vel_mux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux', 'merge_install': False, 'path': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux', 'symlink_install': False, 'test_result_base': None}
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'prueba_5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'prueba_5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5', 'merge_install': False, 'path': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5', 'symlink_install': False, 'test_result_base': None}
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.056s] DEBUG:colcon.colcon_core.verb:Building package 'very_simple_robot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator', 'merge_install': False, 'path': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.056s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.057s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux' with build type 'ament_cmake'
+[1.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux'
+[1.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5' with build type 'ament_python'
+[1.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('prueba_5', 'ament_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/ament_prefix_path.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/ament_prefix_path.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/ament_prefix_path.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator' with build type 'ament_cmake'
+[1.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator'
+[1.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux -- -j8 -l8
+[1.450s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5'
+[1.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux -- -j8 -l8
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux
+[1.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux' for CMake module files
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux' for CMake config files
+[1.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib'
+[1.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/bin'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/python3.10/site-packages'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/bin'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[1.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[1.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux' for CMake module files
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux' for CMake config files
+[1.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib'
+[1.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[1.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/bin'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/python3.10/site-packages'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/bin'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[1.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[1.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prueba_5 build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log --single-version-externally-managed install_data
+[2.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator' for CMake module files
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator' for CMake config files
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/bin'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/bin'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[2.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator' for CMake module files
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator' for CMake config files
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/bin'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/bin'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[2.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5' for CMake module files
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5' returned '0': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prueba_5 build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log --single-version-externally-managed install_data
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5' for CMake config files
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/bin'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/pkgconfig/prueba_5.pc'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages'
+[2.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('prueba_5', 'pythonpath')
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/pythonpath.ps1'
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/pythonpath.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/hook/pythonpath.sh'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/bin'
+[2.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prueba_5)
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/package.ps1'
+[2.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/package.dsv'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/package.sh'
+[2.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/package.bash'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/prueba_5/package.zsh'
+[2.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/share/colcon-core/packages/prueba_5)
+[2.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.371s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.381s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.401s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/local_setup.ps1'
+[2.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/_local_setup_util_ps1.py'
+[2.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/setup.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/local_setup.sh'
+[2.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/_local_setup_util_sh.py'
+[2.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/setup.sh'
+[2.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/local_setup.bash'
+[2.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/setup.bash'
+[2.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/local_setup.zsh'
+[2.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/setup.zsh'

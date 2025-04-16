@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/cmd_vel_mux_node" "TARGETS" "cmd_vel_mux_node" "DESTINATION" "lib/cmd_vel_mux")

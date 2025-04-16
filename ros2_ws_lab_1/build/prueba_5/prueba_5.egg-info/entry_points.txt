@@ -1,0 +1,4 @@
+[console_scripts]
+pose_loader = prueba_5.pose_loader:main
+test_node = prueba_5.dead_reckoning_nav:main
+

@@ -1,0 +1,90 @@
+[0.947s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator -DCMAKE_INSTALL_PREFIX=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator
+[3.886s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.967s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.103s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[6.328s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.358s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.386s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.125s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.140s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.701s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[7.729s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[8.260s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.379s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[8.400s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.958s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.966s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.930s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[11.517s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.735s] -- Configured cppcheck include dirs: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator
+[11.735s] -- Configured cppcheck exclude dirs and/or files: 
+[11.736s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.738s] -- Added test 'lint_cmake' to check CMake code style
+[11.739s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.747s] -- Added test 'uncrustify' to check C / C++ code style
+[11.747s] -- Configured uncrustify additional arguments: 
+[11.748s] -- Added test 'xmllint' to check XML markup files
+[11.750s] -- Configuring done
+[12.019s] -- Generating done
+[12.069s] -- Build files have been written to: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[12.107s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator -DCMAKE_INSTALL_PREFIX=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator
+[12.112s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[12.205s] [  0%] Built target ament_cmake_python_symlink_very_simple_robot_simulator
+[12.215s] [35m[1mConsolidate compiler generated dependencies of target lidar_simulator[0m
+[12.227s] [35m[1mConsolidate compiler generated dependencies of target kinect_simulator[0m
+[12.259s] [ 50%] Built target lidar_simulator
+[12.269s] [100%] Built target kinect_simulator
+[12.613s] running egg_info
+[12.614s] writing very_simple_robot_simulator.egg-info/PKG-INFO
+[12.615s] writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt
+[12.615s] writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt
+[12.619s] reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[12.699s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[12.738s] [100%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg
+[12.753s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[12.780s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[12.790s] -- Install configuration: ""
+[12.790s] -- Execute custom install script
+[12.791s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator
+[12.791s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator
+[12.792s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh
+[12.792s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv
+[12.792s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO
+[12.793s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.793s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.793s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt
+[12.794s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py
+[12.794s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py
+[12.794s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py
+[12.794s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py
+[12.794s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py
+[12.795s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py
+[12.795s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py
+[12.795s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml
+[12.796s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml
+[12.796s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml
+[12.796s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml
+[12.796s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml
+[12.796s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml
+[12.797s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml
+[12.797s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator
+[12.797s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator
+[12.798s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh
+[12.798s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv
+[12.798s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh
+[12.798s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv
+[12.799s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash
+[12.799s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh
+[12.799s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh
+[12.799s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv
+[12.800s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv
+[12.811s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator
+[12.811s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake
+[12.812s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake
+[12.812s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml
+[12.894s] Listing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...
+[12.910s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator

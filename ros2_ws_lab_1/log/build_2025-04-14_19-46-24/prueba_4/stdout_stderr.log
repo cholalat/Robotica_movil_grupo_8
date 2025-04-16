@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing prueba_4.egg-info/PKG-INFO
+writing dependency_links to prueba_4.egg-info/dependency_links.txt
+writing entry points to prueba_4.egg-info/entry_points.txt
+writing requirements to prueba_4.egg-info/requires.txt
+writing top-level names to prueba_4.egg-info/top_level.txt
+reading manifest file 'prueba_4.egg-info/SOURCES.txt'
+writing manifest file 'prueba_4.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba-4.egg-link (link to .)
+Installing dead_reckoning_nav script to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/prueba_4
+
+Installed /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4
+running symlink_data

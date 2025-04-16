@@ -1,0 +1,30 @@
+[0.080s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux -- -j8 -l8
+[1.471s] [ 50%] Built target cmd_vel_mux
+[1.473s] [100%] Built target cmd_vel_mux_node
+[1.493s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux -- -j8 -l8
+[1.534s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux
+[1.570s] -- Install configuration: ""
+[1.573s] -- Execute custom install script
+[1.575s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[1.577s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[1.579s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[1.581s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[1.583s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[1.584s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[1.585s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[1.587s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[1.588s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[1.590s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[1.591s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[1.592s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[1.594s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[1.595s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[1.596s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[1.597s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[1.598s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[1.646s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[1.652s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[1.653s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[1.654s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[1.654s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[1.663s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux

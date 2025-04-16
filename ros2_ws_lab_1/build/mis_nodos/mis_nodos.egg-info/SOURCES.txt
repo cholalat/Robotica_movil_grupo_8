@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mis_nodos/mis_nodos.egg-info/PKG-INFO
+../../build/mis_nodos/mis_nodos.egg-info/SOURCES.txt
+../../build/mis_nodos/mis_nodos.egg-info/dependency_links.txt
+../../build/mis_nodos/mis_nodos.egg-info/entry_points.txt
+../../build/mis_nodos/mis_nodos.egg-info/requires.txt
+../../build/mis_nodos/mis_nodos.egg-info/top_level.txt
+../../build/mis_nodos/mis_nodos.egg-info/zip-safe
+mis_nodos/__init__.py
+mis_nodos/dead_reckoning_nav.py
+resource/mis_nodos
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

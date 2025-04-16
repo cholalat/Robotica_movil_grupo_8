@@ -1,0 +1,54 @@
+[0.378s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[0.472s] [  0%] Built target ament_cmake_python_symlink_very_simple_robot_simulator
+[0.479s] [ 50%] Built target kinect_simulator
+[0.485s] [100%] Built target lidar_simulator
+[0.785s] running egg_info
+[0.787s] writing very_simple_robot_simulator.egg-info/PKG-INFO
+[0.787s] writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt
+[0.787s] writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt
+[0.791s] reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[0.792s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[0.831s] [100%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg
+[0.848s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[0.851s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[0.861s] -- Install configuration: ""
+[0.862s] -- Execute custom install script
+[0.862s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator
+[0.863s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator
+[0.863s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh
+[0.863s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv
+[0.864s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO
+[0.864s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.864s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.865s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt
+[0.865s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py
+[0.865s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py
+[0.865s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py
+[0.866s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py
+[0.866s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py
+[0.866s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py
+[0.866s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py
+[0.867s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml
+[0.867s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml
+[0.867s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml
+[0.867s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml
+[0.867s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml
+[0.868s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml
+[0.868s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml
+[0.868s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator
+[0.868s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator
+[0.869s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh
+[0.869s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv
+[0.869s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh
+[0.870s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv
+[0.870s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash
+[0.871s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh
+[0.871s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh
+[0.871s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv
+[0.872s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv
+[0.884s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator
+[0.884s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake
+[0.884s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake
+[0.885s] -- Up-to-date symlink: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml
+[0.926s] Listing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...
+[0.936s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5:/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator

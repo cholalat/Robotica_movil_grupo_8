@@ -1,0 +1,237 @@
+[0.058s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[0.303s] [ 12%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator_node.cpp.o[0m
+[0.327s] [ 37%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator.cpp.o[0m
+[0.328s] [ 37%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/vsrs_utils.cpp.o[0m
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator.cpp.o[0m
+[0.338s] [ 62%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator_node.cpp.o[0m
+[0.339s] [ 75%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/vsrs_utils.cpp.o[0m
+[0.374s] [ 75%] Built target ament_cmake_python_symlink_very_simple_robot_simulator
+[1.879s] running egg_info
+[1.882s] creating very_simple_robot_simulator.egg-info
+[1.883s] writing very_simple_robot_simulator.egg-info/PKG-INFO
+[1.884s] writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt
+[1.885s] writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt
+[1.887s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[1.951s] reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[1.954s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[2.096s] [ 75%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg
+[6.471s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:9[m[K:
+[6.472s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[6.473s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[6.473s]       |  [01;35m[K^~~~~~~[m[K
+[20.214s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7[m[K,
+[20.224s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[20.224s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[20.240s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[20.244s]       |                                                                                         [01;36m[K^[m[K
+[21.446s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7[m[K,
+[21.449s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[21.450s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[21.457s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[21.461s]       |                                                                                         [01;36m[K^[m[K
+[24.920s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[24.921s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.922s]    84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[24.922s]       |                                                                     [01;35m[K^[m[K
+[24.923s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[24.923s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[24.924s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[24.925s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.925s]   115 |     [01;36m[KConstPtr[m[K;
+[24.926s]       |     [01;36m[K^~~~~~~~[m[K
+[24.926s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[24.927s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.928s]    86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[24.928s]       |                                                                   [01;35m[K^[m[K
+[24.929s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[24.930s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[24.930s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[24.931s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.931s]   124 |     [01;36m[KConstPtr[m[K;
+[24.932s]       |     [01;36m[K^~~~~~~~[m[K
+[25.998s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[25.999s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.999s]    84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[26.000s]       |                                                                     [01;35m[K^[m[K
+[26.001s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[26.002s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[26.002s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[26.003s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.003s]   115 |     [01;36m[KConstPtr[m[K;
+[26.004s]       |     [01;36m[K^~~~~~~~[m[K
+[26.005s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[26.005s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.006s]    86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[26.006s]       |                                                                   [01;35m[K^[m[K
+[26.007s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[26.007s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[26.008s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[26.008s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.009s]   124 |     [01;36m[KConstPtr[m[K;
+[26.009s]       |     [01;36m[K^~~~~~~~[m[K
+[26.465s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[26.466s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.467s]    94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[26.468s]       |                                                                     [01;35m[K^[m[K
+[26.468s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[26.469s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[26.470s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[26.471s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.471s]   115 |     [01;36m[KConstPtr[m[K;
+[26.472s]       |     [01;36m[K^~~~~~~~[m[K
+[26.472s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[26.474s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.474s]    96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[26.475s]       |                                                                   [01;35m[K^[m[K
+[26.476s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[26.476s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[26.477s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[26.478s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.478s]   124 |     [01;36m[KConstPtr[m[K;
+[26.479s]       |     [01;36m[K^~~~~~~~[m[K
+[26.510s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.510s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:[m[K In constructor ‘[01m[KLidarSimulator::LidarSimulator(std::string, bool)[m[K’:
+[26.511s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_std_error[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.512s]    54 |   float [01;35m[Km_std_error[m[K;
+[26.512s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[26.513s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCoordinateConverter LidarSimulator::m_converter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.514s]    38 |   CoordinateConverter [01;35m[Km_converter[m[K;
+[26.514s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[26.522s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.523s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[26.524s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[26.524s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.530s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_converter[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.530s]    38 |   CoordinateConverter [01;35m[Km_converter[m[K;
+[26.531s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[26.532s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:34:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat LidarSimulator::m_global_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.532s]    34 |   cv::Mat [01;35m[Km_global_map[m[K;
+[26.533s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[26.534s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.537s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[26.538s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[26.538s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.542s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:46:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_lidar_fov[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.542s]    46 |   float [01;35m[Km_lidar_fov[m[K;
+[26.543s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[26.544s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:44:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint LidarSimulator::m_lidar_n_h_scans[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.544s]    44 |   int [01;35m[Km_lidar_n_h_scans[m[K;
+[26.545s]       |       [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[26.546s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.547s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[26.547s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[26.548s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.548s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:62:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_image_transport[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.549s]    62 |   image_transport::ImageTransport [01;35m[Km_image_transport[m[K;
+[26.550s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[26.550s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:56:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool LidarSimulator::m_publish_2d_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.551s]    56 |   bool [01;35m[Km_publish_2d_map[m[K;
+[26.551s]       |        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[26.555s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[26.556s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[26.557s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[26.676s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:[m[K At global scope:
+[26.677s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:236:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.678s]   236 | LidarSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K
+[26.678s]       |                                                                              [01;35m[K^[m[K
+[26.680s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[26.680s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[26.681s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.682s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.682s]   115 |     [01;36m[KConstPtr[m[K;
+[26.683s]       |     [01;36m[K^~~~~~~~[m[K
+[26.715s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:316:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.716s]   316 | LidarSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K
+[26.716s]       |                                                                            [01;35m[K^[m[K
+[26.717s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[26.720s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[26.721s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[26.721s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.722s]   124 |     [01;36m[KConstPtr[m[K;
+[26.722s]       |     [01;36m[K^~~~~~~~[m[K
+[28.219s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[28.224s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[28.229s]    94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[28.230s]       |                                                                     [01;35m[K^[m[K
+[28.231s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[28.232s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[28.233s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[28.233s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.234s]   115 |     [01;36m[KConstPtr[m[K;
+[28.235s]       |     [01;36m[K^~~~~~~~[m[K
+[28.236s] In file included from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[28.236s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[28.237s]    96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[28.238s]       |                                                                   [01;35m[K^[m[K
+[28.239s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[28.239s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[28.240s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[28.241s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.242s]   124 |     [01;36m[KConstPtr[m[K;
+[28.242s]       |     [01;36m[K^~~~~~~~[m[K
+[29.655s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:224:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[29.657s]   224 | KinectSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K
+[29.658s]       |                                                                               [01;35m[K^[m[K
+[29.659s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[29.660s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[29.661s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[29.662s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[29.662s]   115 |     [01;36m[KConstPtr[m[K;
+[29.663s]       |     [01;36m[K^~~~~~~~[m[K
+[29.690s] [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:317:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[29.691s]   317 | KinectSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K
+[29.692s]       |                                                                             [01;35m[K^[m[K
+[29.693s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[29.693s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[29.694s]                  from [01m[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[29.695s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[29.695s]   124 |     [01;36m[KConstPtr[m[K;
+[29.696s]       |     [01;36m[K^~~~~~~~[m[K
+[75.014s] [ 87%] [32m[1mLinking CXX executable kinect_simulator[0m
+[75.140s] [100%] [32m[1mLinking CXX executable lidar_simulator[0m
+[82.411s] [100%] Built target kinect_simulator
+[82.473s] [100%] Built target lidar_simulator
+[82.521s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator -- -j8 -l8
+[82.606s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator
+[82.640s] -- Install configuration: ""
+[82.695s] -- Execute custom install script
+[82.697s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator
+[82.733s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator
+[82.770s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh
+[82.807s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv
+[82.846s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO
+[82.883s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt
+[82.920s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt
+[82.957s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt
+[82.996s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py
+[83.033s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py
+[83.070s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py
+[83.107s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py
+[83.144s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py
+[83.181s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py
+[83.217s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py
+[83.255s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml
+[83.292s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml
+[83.328s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml
+[83.365s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml
+[83.402s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml
+[83.439s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml
+[83.476s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml
+[83.513s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator
+[83.550s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator
+[83.587s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh
+[83.623s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv
+[83.660s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh
+[83.696s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv
+[83.733s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash
+[83.769s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh
+[83.806s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh
+[83.842s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv
+[83.879s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv
+[83.915s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator
+[83.952s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake
+[83.989s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake
+[84.025s] -- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml
+[84.377s] Listing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...
+[84.377s] Compiling '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py'...
+[84.406s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator

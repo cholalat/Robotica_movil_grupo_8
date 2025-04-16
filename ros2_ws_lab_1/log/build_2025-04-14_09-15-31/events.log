@@ -1,0 +1,1159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (cmd_vel_mux) JobQueued: {'identifier': 'cmd_vel_mux', 'dependencies': OrderedDict()}
+[0.000801] (very_simple_robot_simulator) JobQueued: {'identifier': 'very_simple_robot_simulator', 'dependencies': OrderedDict()}
+[0.000945] (cmd_vel_mux) JobStarted: {'identifier': 'cmd_vel_mux'}
+[0.023956] (very_simple_robot_simulator) JobStarted: {'identifier': 'very_simple_robot_simulator'}
+[0.045336] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'cmake'}
+[0.049576] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux'], 'cwd': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paulo'), ('LC_TIME', 'es_CL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paulo'), ('OLDPWD', '/home/paulo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CL.UTF-8'), ('SYSTEMD_EXEC_PID', '1923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paulo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paulo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Jose:@/tmp/.ICE-unix/1708,unix/Jose:/tmp/.ICE-unix/1708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13f1d41c_b7e7_4193_8a26_aec9c0da0061'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9G3P42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CL.UTF-8'), ('LC_IDENTIFICATION', 'es_CL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CL.UTF-8'), ('LC_PAPER', 'es_CL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066106] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'cmake'}
+[0.069068] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'build'}
+[0.074919] (very_simple_robot_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator', '--', '-j8', '-l8'], 'cwd': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paulo'), ('LC_TIME', 'es_CL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paulo'), ('OLDPWD', '/home/paulo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CL.UTF-8'), ('SYSTEMD_EXEC_PID', '1923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paulo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paulo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Jose:@/tmp/.ICE-unix/1708,unix/Jose:/tmp/.ICE-unix/1708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13f1d41c_b7e7_4193_8a26_aec9c0da0061'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9G3P42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CL.UTF-8'), ('LC_IDENTIFICATION', 'es_CL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CL.UTF-8'), ('LC_PAPER', 'es_CL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096815] (-) TimerEvent: {}
+[0.114040] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.197012] (-) TimerEvent: {}
+[0.299876] (-) TimerEvent: {}
+[0.322693] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator_node.cpp.o\x1b[0m\n'}
+[0.343619] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator.cpp.o\x1b[0m\n'}
+[0.351919] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/vsrs_utils.cpp.o\x1b[0m\n'}
+[0.352729] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator.cpp.o\x1b[0m\n'}
+[0.362229] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator_node.cpp.o\x1b[0m\n'}
+[0.363526] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/vsrs_utils.cpp.o\x1b[0m\n'}
+[0.398654] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_symlink_very_simple_robot_simulator\n'}
+[0.400021] (-) TimerEvent: {}
+[0.500901] (-) TimerEvent: {}
+[0.601635] (-) TimerEvent: {}
+[0.702386] (-) TimerEvent: {}
+[0.758070] (cmd_vel_mux) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.798091] (cmd_vel_mux) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.802533] (-) TimerEvent: {}
+[0.903217] (-) TimerEvent: {}
+[0.916890] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.929418] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.961134] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.003447] (-) TimerEvent: {}
+[1.012407] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.078325] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103597] (-) TimerEvent: {}
+[1.204267] (-) TimerEvent: {}
+[1.305172] (-) TimerEvent: {}
+[1.339583] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[1.405418] (-) TimerEvent: {}
+[1.423704] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.507496] (-) TimerEvent: {}
+[1.537972] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.548614] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.611431] (-) TimerEvent: {}
+[1.712412] (-) TimerEvent: {}
+[1.813350] (-) TimerEvent: {}
+[1.903082] (very_simple_robot_simulator) StdoutLine: {'line': b'running egg_info\n'}
+[1.906864] (very_simple_robot_simulator) StdoutLine: {'line': b'creating very_simple_robot_simulator.egg-info\n'}
+[1.907867] (very_simple_robot_simulator) StdoutLine: {'line': b'writing very_simple_robot_simulator.egg-info/PKG-INFO\n'}
+[1.908834] (very_simple_robot_simulator) StdoutLine: {'line': b'writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt\n'}
+[1.909891] (very_simple_robot_simulator) StdoutLine: {'line': b'writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt\n'}
+[1.911342] (very_simple_robot_simulator) StdoutLine: {'line': b"writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'\n"}
+[1.913448] (-) TimerEvent: {}
+[1.974584] (very_simple_robot_simulator) StdoutLine: {'line': b"reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'\n"}
+[1.978340] (very_simple_robot_simulator) StdoutLine: {'line': b"writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'\n"}
+[2.013736] (-) TimerEvent: {}
+[2.114829] (-) TimerEvent: {}
+[2.120174] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg\n'}
+[2.161865] (cmd_vel_mux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.215071] (-) TimerEvent: {}
+[2.316131] (-) TimerEvent: {}
+[2.405231] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.416398] (-) TimerEvent: {}
+[2.517997] (-) TimerEvent: {}
+[2.559638] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.618171] (-) TimerEvent: {}
+[2.718993] (-) TimerEvent: {}
+[2.819813] (-) TimerEvent: {}
+[2.920782] (-) TimerEvent: {}
+[3.021666] (-) TimerEvent: {}
+[3.043492] (cmd_vel_mux) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[3.090436] (cmd_vel_mux) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.123456] (-) TimerEvent: {}
+[3.219631] (cmd_vel_mux) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.223808] (-) TimerEvent: {}
+[3.325383] (-) TimerEvent: {}
+[3.426127] (-) TimerEvent: {}
+[3.526897] (-) TimerEvent: {}
+[3.545151] (cmd_vel_mux) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.545988] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.546376] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.546955] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.627126] (-) TimerEvent: {}
+[3.654221] (cmd_vel_mux) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.728179] (-) TimerEvent: {}
+[3.752161] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.754995] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux/include\n'}
+[3.755991] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.785815] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.786945] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.792936] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.804802] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.812742] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.830490] (-) TimerEvent: {}
+[3.841659] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.842671] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.849689] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.857350] (cmd_vel_mux) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.930699] (-) TimerEvent: {}
+[3.942035] (cmd_vel_mux) StdoutLine: {'line': b'-- Generating done\n'}
+[3.968565] (cmd_vel_mux) StdoutLine: {'line': b'-- Build files have been written to: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux\n'}
+[3.999186] (cmd_vel_mux) CommandEnded: {'returncode': 0}
+[4.003175] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'build'}
+[4.008325] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux', '--', '-j8', '-l8'], 'cwd': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paulo'), ('LC_TIME', 'es_CL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paulo'), ('OLDPWD', '/home/paulo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CL.UTF-8'), ('SYSTEMD_EXEC_PID', '1923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paulo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paulo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Jose:@/tmp/.ICE-unix/1708,unix/Jose:/tmp/.ICE-unix/1708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13f1d41c_b7e7_4193_8a26_aec9c0da0061'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9G3P42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CL.UTF-8'), ('LC_IDENTIFICATION', 'es_CL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CL.UTF-8'), ('LC_PAPER', 'es_CL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.030911] (-) TimerEvent: {}
+[4.131738] (-) TimerEvent: {}
+[4.236461] (-) TimerEvent: {}
+[4.295622] (cmd_vel_mux) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_mux.dir/src/cmd_vel_mux.cpp.o\x1b[0m\n'}
+[4.296577] (cmd_vel_mux) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_mux_node.dir/rclcpp_components/node_main_cmd_vel_mux_node.cpp.o\x1b[0m\n'}
+[4.336687] (-) TimerEvent: {}
+[4.437748] (-) TimerEvent: {}
+[4.540477] (-) TimerEvent: {}
+[4.641540] (-) TimerEvent: {}
+[4.742534] (-) TimerEvent: {}
+[4.843348] (-) TimerEvent: {}
+[4.947724] (-) TimerEvent: {}
+[5.048585] (-) TimerEvent: {}
+[5.149561] (-) TimerEvent: {}
+[5.250377] (-) TimerEvent: {}
+[5.351473] (-) TimerEvent: {}
+[5.452398] (-) TimerEvent: {}
+[5.553269] (-) TimerEvent: {}
+[5.654233] (-) TimerEvent: {}
+[5.755188] (-) TimerEvent: {}
+[5.856177] (-) TimerEvent: {}
+[5.957338] (-) TimerEvent: {}
+[6.058382] (-) TimerEvent: {}
+[6.159522] (-) TimerEvent: {}
+[6.260393] (-) TimerEvent: {}
+[6.361509] (-) TimerEvent: {}
+[6.462454] (-) TimerEvent: {}
+[6.495385] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:9\x1b[m\x1b[K:\n'}
+[6.496449] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.497073] (very_simple_robot_simulator) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[6.497613] (very_simple_robot_simulator) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.562671] (-) TimerEvent: {}
+[6.663695] (-) TimerEvent: {}
+[6.764761] (-) TimerEvent: {}
+[6.865977] (-) TimerEvent: {}
+[6.966984] (-) TimerEvent: {}
+[7.070460] (-) TimerEvent: {}
+[7.172182] (-) TimerEvent: {}
+[7.274419] (-) TimerEvent: {}
+[7.375870] (-) TimerEvent: {}
+[7.476954] (-) TimerEvent: {}
+[7.577994] (-) TimerEvent: {}
+[7.679133] (-) TimerEvent: {}
+[7.780222] (-) TimerEvent: {}
+[7.881328] (-) TimerEvent: {}
+[7.982771] (-) TimerEvent: {}
+[8.083818] (-) TimerEvent: {}
+[8.185094] (-) TimerEvent: {}
+[8.286152] (-) TimerEvent: {}
+[8.387918] (-) TimerEvent: {}
+[8.493483] (-) TimerEvent: {}
+[8.598466] (-) TimerEvent: {}
+[8.705117] (-) TimerEvent: {}
+[8.806221] (-) TimerEvent: {}
+[8.908457] (-) TimerEvent: {}
+[9.010758] (-) TimerEvent: {}
+[9.113394] (-) TimerEvent: {}
+[9.216547] (-) TimerEvent: {}
+[9.321725] (-) TimerEvent: {}
+[9.427450] (-) TimerEvent: {}
+[9.532863] (-) TimerEvent: {}
+[9.638750] (-) TimerEvent: {}
+[9.740170] (-) TimerEvent: {}
+[9.845468] (-) TimerEvent: {}
+[9.947306] (-) TimerEvent: {}
+[10.049150] (-) TimerEvent: {}
+[10.150217] (-) TimerEvent: {}
+[10.251368] (-) TimerEvent: {}
+[10.354207] (-) TimerEvent: {}
+[10.455317] (-) TimerEvent: {}
+[10.556737] (-) TimerEvent: {}
+[10.658193] (-) TimerEvent: {}
+[10.759229] (-) TimerEvent: {}
+[10.860249] (-) TimerEvent: {}
+[10.962431] (-) TimerEvent: {}
+[11.063471] (-) TimerEvent: {}
+[11.165564] (-) TimerEvent: {}
+[11.267664] (-) TimerEvent: {}
+[11.369350] (-) TimerEvent: {}
+[11.470822] (-) TimerEvent: {}
+[11.572337] (-) TimerEvent: {}
+[11.674468] (-) TimerEvent: {}
+[11.776496] (-) TimerEvent: {}
+[11.878625] (-) TimerEvent: {}
+[11.980711] (-) TimerEvent: {}
+[12.082783] (-) TimerEvent: {}
+[12.184953] (-) TimerEvent: {}
+[12.286015] (-) TimerEvent: {}
+[12.387094] (-) TimerEvent: {}
+[12.491127] (-) TimerEvent: {}
+[12.593326] (-) TimerEvent: {}
+[12.694396] (-) TimerEvent: {}
+[12.796263] (-) TimerEvent: {}
+[12.897323] (-) TimerEvent: {}
+[12.998964] (-) TimerEvent: {}
+[13.099951] (-) TimerEvent: {}
+[13.202050] (-) TimerEvent: {}
+[13.305661] (-) TimerEvent: {}
+[13.406652] (-) TimerEvent: {}
+[13.507693] (-) TimerEvent: {}
+[13.610047] (-) TimerEvent: {}
+[13.711091] (-) TimerEvent: {}
+[13.813048] (-) TimerEvent: {}
+[13.914177] (-) TimerEvent: {}
+[14.015207] (-) TimerEvent: {}
+[14.117193] (-) TimerEvent: {}
+[14.220229] (-) TimerEvent: {}
+[14.321978] (-) TimerEvent: {}
+[14.423453] (-) TimerEvent: {}
+[14.525590] (-) TimerEvent: {}
+[14.626603] (-) TimerEvent: {}
+[14.727619] (-) TimerEvent: {}
+[14.829485] (-) TimerEvent: {}
+[14.931428] (-) TimerEvent: {}
+[15.032492] (-) TimerEvent: {}
+[15.133492] (-) TimerEvent: {}
+[15.234491] (-) TimerEvent: {}
+[15.335483] (-) TimerEvent: {}
+[15.436479] (-) TimerEvent: {}
+[15.537464] (-) TimerEvent: {}
+[15.638514] (-) TimerEvent: {}
+[15.739687] (-) TimerEvent: {}
+[15.840797] (-) TimerEvent: {}
+[15.941852] (-) TimerEvent: {}
+[16.042907] (-) TimerEvent: {}
+[16.144473] (-) TimerEvent: {}
+[16.246197] (-) TimerEvent: {}
+[16.347513] (-) TimerEvent: {}
+[16.448510] (-) TimerEvent: {}
+[16.549561] (-) TimerEvent: {}
+[16.651209] (-) TimerEvent: {}
+[16.752867] (-) TimerEvent: {}
+[16.854495] (-) TimerEvent: {}
+[16.956650] (-) TimerEvent: {}
+[17.057877] (-) TimerEvent: {}
+[17.159922] (-) TimerEvent: {}
+[17.260945] (-) TimerEvent: {}
+[17.362018] (-) TimerEvent: {}
+[17.463088] (-) TimerEvent: {}
+[17.564135] (-) TimerEvent: {}
+[17.665347] (-) TimerEvent: {}
+[17.766397] (-) TimerEvent: {}
+[17.867446] (-) TimerEvent: {}
+[17.968459] (-) TimerEvent: {}
+[18.071144] (-) TimerEvent: {}
+[18.172350] (-) TimerEvent: {}
+[18.273433] (-) TimerEvent: {}
+[18.374753] (-) TimerEvent: {}
+[18.476037] (-) TimerEvent: {}
+[18.577224] (-) TimerEvent: {}
+[18.678259] (-) TimerEvent: {}
+[18.779399] (-) TimerEvent: {}
+[18.880492] (-) TimerEvent: {}
+[18.983146] (-) TimerEvent: {}
+[19.085680] (-) TimerEvent: {}
+[19.192678] (-) TimerEvent: {}
+[19.293717] (-) TimerEvent: {}
+[19.394787] (-) TimerEvent: {}
+[19.495838] (-) TimerEvent: {}
+[19.596934] (-) TimerEvent: {}
+[19.699884] (-) TimerEvent: {}
+[19.802095] (-) TimerEvent: {}
+[19.904259] (-) TimerEvent: {}
+[20.009032] (-) TimerEvent: {}
+[20.111236] (-) TimerEvent: {}
+[20.212328] (-) TimerEvent: {}
+[20.235521] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7\x1b[m\x1b[K,\n'}
+[20.247065] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[20.248698] (very_simple_robot_simulator) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[20.261700] (very_simple_robot_simulator) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[20.265981] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[20.312473] (-) TimerEvent: {}
+[20.413465] (-) TimerEvent: {}
+[20.514451] (-) TimerEvent: {}
+[20.615508] (-) TimerEvent: {}
+[20.716675] (-) TimerEvent: {}
+[20.817677] (-) TimerEvent: {}
+[20.919082] (-) TimerEvent: {}
+[21.020229] (-) TimerEvent: {}
+[21.121417] (-) TimerEvent: {}
+[21.222483] (-) TimerEvent: {}
+[21.324374] (-) TimerEvent: {}
+[21.425411] (-) TimerEvent: {}
+[21.467784] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7\x1b[m\x1b[K,\n'}
+[21.471980] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[21.474259] (very_simple_robot_simulator) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[21.474989] (very_simple_robot_simulator) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[21.483051] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.525688] (-) TimerEvent: {}
+[21.626748] (-) TimerEvent: {}
+[21.727799] (-) TimerEvent: {}
+[21.828826] (-) TimerEvent: {}
+[21.929904] (-) TimerEvent: {}
+[22.031070] (-) TimerEvent: {}
+[22.132118] (-) TimerEvent: {}
+[22.233202] (-) TimerEvent: {}
+[22.334265] (-) TimerEvent: {}
+[22.435249] (-) TimerEvent: {}
+[22.536351] (-) TimerEvent: {}
+[22.539393] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_mux_node\x1b[0m\n'}
+[22.636501] (-) TimerEvent: {}
+[22.737370] (-) TimerEvent: {}
+[22.839642] (-) TimerEvent: {}
+[22.941404] (-) TimerEvent: {}
+[23.043609] (-) TimerEvent: {}
+[23.145465] (-) TimerEvent: {}
+[23.247440] (-) TimerEvent: {}
+[23.348472] (-) TimerEvent: {}
+[23.450265] (-) TimerEvent: {}
+[23.564480] (-) TimerEvent: {}
+[23.671494] (-) TimerEvent: {}
+[23.775479] (-) TimerEvent: {}
+[23.877130] (-) TimerEvent: {}
+[23.979387] (-) TimerEvent: {}
+[24.085465] (-) TimerEvent: {}
+[24.187177] (-) TimerEvent: {}
+[24.289005] (-) TimerEvent: {}
+[24.390813] (-) TimerEvent: {}
+[24.491908] (-) TimerEvent: {}
+[24.593560] (-) TimerEvent: {}
+[24.658937] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] Built target cmd_vel_mux_node\n'}
+[24.693771] (-) TimerEvent: {}
+[24.795454] (-) TimerEvent: {}
+[24.896442] (-) TimerEvent: {}
+[24.942096] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[24.945105] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.945878] (very_simple_robot_simulator) StderrLine: {'line': b'   84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.946605] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.947187] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[24.947807] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[24.948373] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[24.948986] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[24.949596] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[24.950178] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[24.950795] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[24.951378] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.952085] (very_simple_robot_simulator) StderrLine: {'line': b'   86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.952728] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.953360] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[24.953979] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[24.954643] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[24.955265] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[24.955878] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[24.956483] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[24.996674] (-) TimerEvent: {}
+[25.097679] (-) TimerEvent: {}
+[25.198673] (-) TimerEvent: {}
+[25.299710] (-) TimerEvent: {}
+[25.400814] (-) TimerEvent: {}
+[25.501832] (-) TimerEvent: {}
+[25.602845] (-) TimerEvent: {}
+[25.703821] (-) TimerEvent: {}
+[25.804831] (-) TimerEvent: {}
+[25.905882] (-) TimerEvent: {}
+[26.006899] (-) TimerEvent: {}
+[26.021721] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.023054] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.023771] (very_simple_robot_simulator) StderrLine: {'line': b'   84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.024376] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.024958] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[26.025547] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[26.026575] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.027202] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.027842] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.028426] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.029016] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.029597] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.030133] (very_simple_robot_simulator) StderrLine: {'line': b'   86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.030631] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.031089] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[26.031576] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[26.032031] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.032552] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.033022] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.033509] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.107131] (-) TimerEvent: {}
+[26.208188] (-) TimerEvent: {}
+[26.309222] (-) TimerEvent: {}
+[26.410338] (-) TimerEvent: {}
+[26.488934] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.490469] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.491180] (very_simple_robot_simulator) StderrLine: {'line': b'   94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.492194] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.492853] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[26.493479] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[26.494089] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.495010] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.495662] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.496246] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.496882] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.497946] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.498692] (very_simple_robot_simulator) StderrLine: {'line': b'   96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.499321] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.499932] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[26.500520] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[26.501102] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[26.502049] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.502676] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.503232] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.510528] (-) TimerEvent: {}
+[26.533689] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.534621] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::LidarSimulator(std::string, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.535297] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:54:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_std_error\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.536001] (very_simple_robot_simulator) StderrLine: {'line': b'   54 |   float \x1b[01;35m\x1b[Km_std_error\x1b[m\x1b[K;\n'}
+[26.536635] (very_simple_robot_simulator) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.537205] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KCoordinateConverter LidarSimulator::m_converter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.537985] (very_simple_robot_simulator) StderrLine: {'line': b'   38 |   CoordinateConverter \x1b[01;35m\x1b[Km_converter\x1b[m\x1b[K;\n'}
+[26.538624] (very_simple_robot_simulator) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.540389] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.547185] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[26.547937] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.548601] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.549207] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_converter\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.554742] (very_simple_robot_simulator) StderrLine: {'line': b'   38 |   CoordinateConverter \x1b[01;35m\x1b[Km_converter\x1b[m\x1b[K;\n'}
+[26.555418] (very_simple_robot_simulator) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.556030] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:34:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat LidarSimulator::m_global_map\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.556730] (very_simple_robot_simulator) StderrLine: {'line': b'   34 |   cv::Mat \x1b[01;35m\x1b[Km_global_map\x1b[m\x1b[K;\n'}
+[26.557400] (very_simple_robot_simulator) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.557991] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.558640] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[26.561822] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.562523] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.563126] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_lidar_fov\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.566797] (very_simple_robot_simulator) StderrLine: {'line': b'   46 |   float \x1b[01;35m\x1b[Km_lidar_fov\x1b[m\x1b[K;\n'}
+[26.567525] (very_simple_robot_simulator) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.568147] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:44:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint LidarSimulator::m_lidar_n_h_scans\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.568863] (very_simple_robot_simulator) StderrLine: {'line': b'   44 |   int \x1b[01;35m\x1b[Km_lidar_n_h_scans\x1b[m\x1b[K;\n'}
+[26.569419] (very_simple_robot_simulator) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.569951] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.570863] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[26.571528] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.572103] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.572722] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:62:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_image_transport\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.573391] (very_simple_robot_simulator) StderrLine: {'line': b'   62 |   image_transport::ImageTransport \x1b[01;35m\x1b[Km_image_transport\x1b[m\x1b[K;\n'}
+[26.573974] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.574566] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:56:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool LidarSimulator::m_publish_2d_map\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.575258] (very_simple_robot_simulator) StderrLine: {'line': b'   56 |   bool \x1b[01;35m\x1b[Km_publish_2d_map\x1b[m\x1b[K;\n'}
+[26.575895] (very_simple_robot_simulator) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.579324] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.580064] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[26.581013] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.610793] (-) TimerEvent: {}
+[26.700393] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:\x1b[m\x1b[K At global scope:\n'}
+[26.701365] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:236:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.702043] (very_simple_robot_simulator) StderrLine: {'line': b'  236 | LidarSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[26.702635] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.703190] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[26.704790] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[26.705468] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.706084] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.706712] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.707440] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.711002] (-) TimerEvent: {}
+[26.738444] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:316:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.739578] (very_simple_robot_simulator) StderrLine: {'line': b'  316 | LidarSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[26.740643] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.741320] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[26.741955] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[26.744795] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[26.745567] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[26.746203] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[26.746836] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[26.811239] (-) TimerEvent: {}
+[26.912255] (-) TimerEvent: {}
+[27.013257] (-) TimerEvent: {}
+[27.114302] (-) TimerEvent: {}
+[27.215421] (-) TimerEvent: {}
+[27.316555] (-) TimerEvent: {}
+[27.417582] (-) TimerEvent: {}
+[27.519006] (-) TimerEvent: {}
+[27.620063] (-) TimerEvent: {}
+[27.721125] (-) TimerEvent: {}
+[27.822190] (-) TimerEvent: {}
+[27.923580] (-) TimerEvent: {}
+[28.024581] (-) TimerEvent: {}
+[28.125597] (-) TimerEvent: {}
+[28.227010] (-) TimerEvent: {}
+[28.237237] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[28.245367] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.250196] (very_simple_robot_simulator) StderrLine: {'line': b'   94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.254200] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.255112] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[28.255998] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[28.256814] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[28.257606] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[28.258390] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[28.259103] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[28.259855] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[28.260561] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.261332] (very_simple_robot_simulator) StderrLine: {'line': b'   96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.262137] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.262893] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[28.263664] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[28.264416] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[28.265131] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[28.265855] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[28.266589] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[28.327191] (-) TimerEvent: {}
+[28.428253] (-) TimerEvent: {}
+[28.529928] (-) TimerEvent: {}
+[28.630961] (-) TimerEvent: {}
+[28.732017] (-) TimerEvent: {}
+[28.833115] (-) TimerEvent: {}
+[28.934189] (-) TimerEvent: {}
+[29.035202] (-) TimerEvent: {}
+[29.136322] (-) TimerEvent: {}
+[29.237523] (-) TimerEvent: {}
+[29.340325] (-) TimerEvent: {}
+[29.441924] (-) TimerEvent: {}
+[29.543153] (-) TimerEvent: {}
+[29.644356] (-) TimerEvent: {}
+[29.675210] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:224:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.681168] (very_simple_robot_simulator) StderrLine: {'line': b'  224 | KinectSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[29.682412] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[29.683313] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[29.684220] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[29.685066] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[29.685885] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[29.686716] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[29.687516] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[29.714109] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:317:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.715354] (very_simple_robot_simulator) StderrLine: {'line': b'  317 | KinectSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[29.716107] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[29.716834] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[29.717558] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[29.718325] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[29.719052] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[29.719764] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[29.720426] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[29.744571] (-) TimerEvent: {}
+[29.845862] (-) TimerEvent: {}
+[29.947139] (-) TimerEvent: {}
+[30.048437] (-) TimerEvent: {}
+[30.149711] (-) TimerEvent: {}
+[30.250936] (-) TimerEvent: {}
+[30.352152] (-) TimerEvent: {}
+[30.453427] (-) TimerEvent: {}
+[30.554699] (-) TimerEvent: {}
+[30.656039] (-) TimerEvent: {}
+[30.758677] (-) TimerEvent: {}
+[30.859935] (-) TimerEvent: {}
+[30.961384] (-) TimerEvent: {}
+[31.063604] (-) TimerEvent: {}
+[31.164872] (-) TimerEvent: {}
+[31.266154] (-) TimerEvent: {}
+[31.367472] (-) TimerEvent: {}
+[31.469326] (-) TimerEvent: {}
+[31.570792] (-) TimerEvent: {}
+[31.672109] (-) TimerEvent: {}
+[31.773331] (-) TimerEvent: {}
+[31.874444] (-) TimerEvent: {}
+[31.975531] (-) TimerEvent: {}
+[32.076625] (-) TimerEvent: {}
+[32.177685] (-) TimerEvent: {}
+[32.284858] (-) TimerEvent: {}
+[32.386260] (-) TimerEvent: {}
+[32.491694] (-) TimerEvent: {}
+[32.593204] (-) TimerEvent: {}
+[32.694494] (-) TimerEvent: {}
+[32.795646] (-) TimerEvent: {}
+[32.896701] (-) TimerEvent: {}
+[32.997706] (-) TimerEvent: {}
+[33.098733] (-) TimerEvent: {}
+[33.199774] (-) TimerEvent: {}
+[33.300865] (-) TimerEvent: {}
+[33.402259] (-) TimerEvent: {}
+[33.503452] (-) TimerEvent: {}
+[33.604518] (-) TimerEvent: {}
+[33.705444] (-) TimerEvent: {}
+[33.806452] (-) TimerEvent: {}
+[33.907454] (-) TimerEvent: {}
+[34.008315] (-) TimerEvent: {}
+[34.109069] (-) TimerEvent: {}
+[34.210007] (-) TimerEvent: {}
+[34.310944] (-) TimerEvent: {}
+[34.411721] (-) TimerEvent: {}
+[34.512650] (-) TimerEvent: {}
+[34.613502] (-) TimerEvent: {}
+[34.714256] (-) TimerEvent: {}
+[34.815096] (-) TimerEvent: {}
+[34.916108] (-) TimerEvent: {}
+[35.017452] (-) TimerEvent: {}
+[35.118474] (-) TimerEvent: {}
+[35.219622] (-) TimerEvent: {}
+[35.320761] (-) TimerEvent: {}
+[35.421790] (-) TimerEvent: {}
+[35.522815] (-) TimerEvent: {}
+[35.623843] (-) TimerEvent: {}
+[35.724889] (-) TimerEvent: {}
+[35.825932] (-) TimerEvent: {}
+[35.926975] (-) TimerEvent: {}
+[36.028037] (-) TimerEvent: {}
+[36.129086] (-) TimerEvent: {}
+[36.230136] (-) TimerEvent: {}
+[36.331449] (-) TimerEvent: {}
+[36.432512] (-) TimerEvent: {}
+[36.533722] (-) TimerEvent: {}
+[36.635085] (-) TimerEvent: {}
+[36.736221] (-) TimerEvent: {}
+[36.837524] (-) TimerEvent: {}
+[36.938727] (-) TimerEvent: {}
+[37.040378] (-) TimerEvent: {}
+[37.141531] (-) TimerEvent: {}
+[37.242767] (-) TimerEvent: {}
+[37.343836] (-) TimerEvent: {}
+[37.444924] (-) TimerEvent: {}
+[37.546753] (-) TimerEvent: {}
+[37.648098] (-) TimerEvent: {}
+[37.749388] (-) TimerEvent: {}
+[37.850532] (-) TimerEvent: {}
+[37.951619] (-) TimerEvent: {}
+[38.052583] (-) TimerEvent: {}
+[38.153577] (-) TimerEvent: {}
+[38.254471] (-) TimerEvent: {}
+[38.355398] (-) TimerEvent: {}
+[38.456310] (-) TimerEvent: {}
+[38.557229] (-) TimerEvent: {}
+[38.658129] (-) TimerEvent: {}
+[38.759073] (-) TimerEvent: {}
+[38.859991] (-) TimerEvent: {}
+[38.960934] (-) TimerEvent: {}
+[39.061897] (-) TimerEvent: {}
+[39.162925] (-) TimerEvent: {}
+[39.263896] (-) TimerEvent: {}
+[39.364737] (-) TimerEvent: {}
+[39.465781] (-) TimerEvent: {}
+[39.566795] (-) TimerEvent: {}
+[39.667816] (-) TimerEvent: {}
+[39.768873] (-) TimerEvent: {}
+[39.869912] (-) TimerEvent: {}
+[39.971227] (-) TimerEvent: {}
+[40.072199] (-) TimerEvent: {}
+[40.173178] (-) TimerEvent: {}
+[40.274168] (-) TimerEvent: {}
+[40.375142] (-) TimerEvent: {}
+[40.476107] (-) TimerEvent: {}
+[40.577074] (-) TimerEvent: {}
+[40.678475] (-) TimerEvent: {}
+[40.779445] (-) TimerEvent: {}
+[40.880448] (-) TimerEvent: {}
+[40.981452] (-) TimerEvent: {}
+[41.082416] (-) TimerEvent: {}
+[41.183325] (-) TimerEvent: {}
+[41.284228] (-) TimerEvent: {}
+[41.385215] (-) TimerEvent: {}
+[41.486235] (-) TimerEvent: {}
+[41.587208] (-) TimerEvent: {}
+[41.688188] (-) TimerEvent: {}
+[41.789182] (-) TimerEvent: {}
+[41.890173] (-) TimerEvent: {}
+[41.991116] (-) TimerEvent: {}
+[42.092052] (-) TimerEvent: {}
+[42.193090] (-) TimerEvent: {}
+[42.294103] (-) TimerEvent: {}
+[42.395096] (-) TimerEvent: {}
+[42.496093] (-) TimerEvent: {}
+[42.597099] (-) TimerEvent: {}
+[42.698124] (-) TimerEvent: {}
+[42.799201] (-) TimerEvent: {}
+[42.900160] (-) TimerEvent: {}
+[43.001150] (-) TimerEvent: {}
+[43.102130] (-) TimerEvent: {}
+[43.203147] (-) TimerEvent: {}
+[43.304174] (-) TimerEvent: {}
+[43.405153] (-) TimerEvent: {}
+[43.506173] (-) TimerEvent: {}
+[43.607194] (-) TimerEvent: {}
+[43.708197] (-) TimerEvent: {}
+[43.809244] (-) TimerEvent: {}
+[43.910434] (-) TimerEvent: {}
+[44.011421] (-) TimerEvent: {}
+[44.112379] (-) TimerEvent: {}
+[44.213361] (-) TimerEvent: {}
+[44.314358] (-) TimerEvent: {}
+[44.415322] (-) TimerEvent: {}
+[44.516434] (-) TimerEvent: {}
+[44.617257] (-) TimerEvent: {}
+[44.718112] (-) TimerEvent: {}
+[44.819019] (-) TimerEvent: {}
+[44.919926] (-) TimerEvent: {}
+[45.020742] (-) TimerEvent: {}
+[45.121509] (-) TimerEvent: {}
+[45.222328] (-) TimerEvent: {}
+[45.323116] (-) TimerEvent: {}
+[45.423937] (-) TimerEvent: {}
+[45.524778] (-) TimerEvent: {}
+[45.625617] (-) TimerEvent: {}
+[45.726430] (-) TimerEvent: {}
+[45.827234] (-) TimerEvent: {}
+[45.928173] (-) TimerEvent: {}
+[46.029020] (-) TimerEvent: {}
+[46.129868] (-) TimerEvent: {}
+[46.230785] (-) TimerEvent: {}
+[46.331638] (-) TimerEvent: {}
+[46.432446] (-) TimerEvent: {}
+[46.533308] (-) TimerEvent: {}
+[46.634245] (-) TimerEvent: {}
+[46.735202] (-) TimerEvent: {}
+[46.836120] (-) TimerEvent: {}
+[46.937060] (-) TimerEvent: {}
+[47.037996] (-) TimerEvent: {}
+[47.138923] (-) TimerEvent: {}
+[47.239935] (-) TimerEvent: {}
+[47.340951] (-) TimerEvent: {}
+[47.441960] (-) TimerEvent: {}
+[47.542932] (-) TimerEvent: {}
+[47.643914] (-) TimerEvent: {}
+[47.744904] (-) TimerEvent: {}
+[47.845935] (-) TimerEvent: {}
+[47.946923] (-) TimerEvent: {}
+[48.047921] (-) TimerEvent: {}
+[48.148886] (-) TimerEvent: {}
+[48.249869] (-) TimerEvent: {}
+[48.350847] (-) TimerEvent: {}
+[48.451834] (-) TimerEvent: {}
+[48.552739] (-) TimerEvent: {}
+[48.653769] (-) TimerEvent: {}
+[48.754788] (-) TimerEvent: {}
+[48.855754] (-) TimerEvent: {}
+[48.956720] (-) TimerEvent: {}
+[49.057741] (-) TimerEvent: {}
+[49.158681] (-) TimerEvent: {}
+[49.259642] (-) TimerEvent: {}
+[49.360548] (-) TimerEvent: {}
+[49.461452] (-) TimerEvent: {}
+[49.562401] (-) TimerEvent: {}
+[49.663352] (-) TimerEvent: {}
+[49.764413] (-) TimerEvent: {}
+[49.865487] (-) TimerEvent: {}
+[49.966497] (-) TimerEvent: {}
+[50.067518] (-) TimerEvent: {}
+[50.168467] (-) TimerEvent: {}
+[50.269443] (-) TimerEvent: {}
+[50.370442] (-) TimerEvent: {}
+[50.471393] (-) TimerEvent: {}
+[50.572437] (-) TimerEvent: {}
+[50.673411] (-) TimerEvent: {}
+[50.774533] (-) TimerEvent: {}
+[50.875774] (-) TimerEvent: {}
+[50.977097] (-) TimerEvent: {}
+[51.078440] (-) TimerEvent: {}
+[51.179762] (-) TimerEvent: {}
+[51.281023] (-) TimerEvent: {}
+[51.382047] (-) TimerEvent: {}
+[51.483002] (-) TimerEvent: {}
+[51.583964] (-) TimerEvent: {}
+[51.684949] (-) TimerEvent: {}
+[51.785911] (-) TimerEvent: {}
+[51.886870] (-) TimerEvent: {}
+[51.987898] (-) TimerEvent: {}
+[52.089114] (-) TimerEvent: {}
+[52.190226] (-) TimerEvent: {}
+[52.291362] (-) TimerEvent: {}
+[52.392324] (-) TimerEvent: {}
+[52.493350] (-) TimerEvent: {}
+[52.594310] (-) TimerEvent: {}
+[52.695236] (-) TimerEvent: {}
+[52.796204] (-) TimerEvent: {}
+[52.897054] (-) TimerEvent: {}
+[52.997889] (-) TimerEvent: {}
+[53.098858] (-) TimerEvent: {}
+[53.199815] (-) TimerEvent: {}
+[53.300775] (-) TimerEvent: {}
+[53.401788] (-) TimerEvent: {}
+[53.502762] (-) TimerEvent: {}
+[53.603722] (-) TimerEvent: {}
+[53.704681] (-) TimerEvent: {}
+[53.805633] (-) TimerEvent: {}
+[53.906634] (-) TimerEvent: {}
+[54.007601] (-) TimerEvent: {}
+[54.108532] (-) TimerEvent: {}
+[54.209429] (-) TimerEvent: {}
+[54.310234] (-) TimerEvent: {}
+[54.411029] (-) TimerEvent: {}
+[54.511701] (-) TimerEvent: {}
+[54.612485] (-) TimerEvent: {}
+[54.713379] (-) TimerEvent: {}
+[54.814371] (-) TimerEvent: {}
+[54.915268] (-) TimerEvent: {}
+[55.016200] (-) TimerEvent: {}
+[55.117103] (-) TimerEvent: {}
+[55.218021] (-) TimerEvent: {}
+[55.318951] (-) TimerEvent: {}
+[55.419937] (-) TimerEvent: {}
+[55.520930] (-) TimerEvent: {}
+[55.621906] (-) TimerEvent: {}
+[55.722874] (-) TimerEvent: {}
+[55.823858] (-) TimerEvent: {}
+[55.924800] (-) TimerEvent: {}
+[56.025761] (-) TimerEvent: {}
+[56.126722] (-) TimerEvent: {}
+[56.227658] (-) TimerEvent: {}
+[56.328606] (-) TimerEvent: {}
+[56.429652] (-) TimerEvent: {}
+[56.530701] (-) TimerEvent: {}
+[56.631689] (-) TimerEvent: {}
+[56.732667] (-) TimerEvent: {}
+[56.833759] (-) TimerEvent: {}
+[56.934808] (-) TimerEvent: {}
+[57.035765] (-) TimerEvent: {}
+[57.139021] (-) TimerEvent: {}
+[57.241517] (-) TimerEvent: {}
+[57.342315] (-) TimerEvent: {}
+[57.439242] (cmd_vel_mux) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcmd_vel_mux.so\x1b[0m\n'}
+[57.442498] (-) TimerEvent: {}
+[57.543415] (-) TimerEvent: {}
+[57.644167] (-) TimerEvent: {}
+[57.744950] (-) TimerEvent: {}
+[57.845736] (-) TimerEvent: {}
+[57.946466] (-) TimerEvent: {}
+[58.047316] (-) TimerEvent: {}
+[58.148114] (-) TimerEvent: {}
+[58.249022] (-) TimerEvent: {}
+[58.349941] (-) TimerEvent: {}
+[58.450840] (-) TimerEvent: {}
+[58.551773] (-) TimerEvent: {}
+[58.652648] (-) TimerEvent: {}
+[58.753470] (-) TimerEvent: {}
+[58.854438] (-) TimerEvent: {}
+[58.955315] (-) TimerEvent: {}
+[59.056082] (-) TimerEvent: {}
+[59.156926] (-) TimerEvent: {}
+[59.257827] (-) TimerEvent: {}
+[59.358628] (-) TimerEvent: {}
+[59.459465] (-) TimerEvent: {}
+[59.560270] (-) TimerEvent: {}
+[59.661098] (-) TimerEvent: {}
+[59.762194] (-) TimerEvent: {}
+[59.863140] (-) TimerEvent: {}
+[59.921731] (cmd_vel_mux) StdoutLine: {'line': b'[100%] Built target cmd_vel_mux\n'}
+[59.963418] (-) TimerEvent: {}
+[59.973345] (cmd_vel_mux) CommandEnded: {'returncode': 0}
+[59.977339] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'install'}
+[60.018605] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux'], 'cwd': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paulo'), ('LC_TIME', 'es_CL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paulo'), ('OLDPWD', '/home/paulo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CL.UTF-8'), ('SYSTEMD_EXEC_PID', '1923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paulo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paulo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Jose:@/tmp/.ICE-unix/1708,unix/Jose:/tmp/.ICE-unix/1708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13f1d41c_b7e7_4193_8a26_aec9c0da0061'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9G3P42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CL.UTF-8'), ('LC_IDENTIFICATION', 'es_CL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CL.UTF-8'), ('LC_PAPER', 'es_CL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[60.052006] (cmd_vel_mux) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.054664] (cmd_vel_mux) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[60.063595] (-) TimerEvent: {}
+[60.164355] (-) TimerEvent: {}
+[60.169902] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node\n'}
+[60.212035] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/lib/libcmd_vel_mux.so\n'}
+[60.264557] (-) TimerEvent: {}
+[60.272860] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp\n'}
+[60.314876] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml\n'}
+[60.357367] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py\n'}
+[60.364802] (-) TimerEvent: {}
+[60.394758] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py\n'}
+[60.434341] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux\n'}
+[60.465058] (-) TimerEvent: {}
+[60.473744] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux\n'}
+[60.514694] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh\n'}
+[60.556179] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv\n'}
+[60.565335] (-) TimerEvent: {}
+[60.609726] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh\n'}
+[60.665551] (-) TimerEvent: {}
+[60.666633] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv\n'}
+[60.723505] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash\n'}
+[60.765801] (-) TimerEvent: {}
+[60.779676] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh\n'}
+[60.820597] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh\n'}
+[60.860218] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv\n'}
+[60.866043] (-) TimerEvent: {}
+[60.898806] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv\n'}
+[60.939958] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux\n'}
+[60.966261] (-) TimerEvent: {}
+[60.980053] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux\n'}
+[61.021762] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake\n'}
+[61.061155] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake\n'}
+[61.066487] (-) TimerEvent: {}
+[61.102919] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/cmd_vel_mux/share/cmd_vel_mux/package.xml\n'}
+[61.150684] (cmd_vel_mux) CommandEnded: {'returncode': 0}
+[61.166724] (-) TimerEvent: {}
+[61.267526] (-) TimerEvent: {}
+[61.368434] (-) TimerEvent: {}
+[61.469432] (-) TimerEvent: {}
+[61.515382] (cmd_vel_mux) JobEnded: {'identifier': 'cmd_vel_mux', 'rc': 0}
+[61.569645] (-) TimerEvent: {}
+[61.670505] (-) TimerEvent: {}
+[61.771250] (-) TimerEvent: {}
+[61.874030] (-) TimerEvent: {}
+[61.974967] (-) TimerEvent: {}
+[62.075940] (-) TimerEvent: {}
+[62.176867] (-) TimerEvent: {}
+[62.277791] (-) TimerEvent: {}
+[62.379236] (-) TimerEvent: {}
+[62.480167] (-) TimerEvent: {}
+[62.581099] (-) TimerEvent: {}
+[62.682034] (-) TimerEvent: {}
+[62.782966] (-) TimerEvent: {}
+[62.883908] (-) TimerEvent: {}
+[62.984838] (-) TimerEvent: {}
+[63.085761] (-) TimerEvent: {}
+[63.186720] (-) TimerEvent: {}
+[63.287642] (-) TimerEvent: {}
+[63.388733] (-) TimerEvent: {}
+[63.489619] (-) TimerEvent: {}
+[63.590375] (-) TimerEvent: {}
+[63.691089] (-) TimerEvent: {}
+[63.791900] (-) TimerEvent: {}
+[63.892650] (-) TimerEvent: {}
+[63.993459] (-) TimerEvent: {}
+[64.094188] (-) TimerEvent: {}
+[64.194932] (-) TimerEvent: {}
+[64.295635] (-) TimerEvent: {}
+[64.396416] (-) TimerEvent: {}
+[64.497131] (-) TimerEvent: {}
+[64.597922] (-) TimerEvent: {}
+[64.698617] (-) TimerEvent: {}
+[64.799406] (-) TimerEvent: {}
+[64.900126] (-) TimerEvent: {}
+[65.000923] (-) TimerEvent: {}
+[65.101625] (-) TimerEvent: {}
+[65.202393] (-) TimerEvent: {}
+[65.303113] (-) TimerEvent: {}
+[65.403891] (-) TimerEvent: {}
+[65.504657] (-) TimerEvent: {}
+[65.605397] (-) TimerEvent: {}
+[65.706145] (-) TimerEvent: {}
+[65.807019] (-) TimerEvent: {}
+[65.907931] (-) TimerEvent: {}
+[66.008772] (-) TimerEvent: {}
+[66.109581] (-) TimerEvent: {}
+[66.210470] (-) TimerEvent: {}
+[66.311328] (-) TimerEvent: {}
+[66.412152] (-) TimerEvent: {}
+[66.513020] (-) TimerEvent: {}
+[66.613884] (-) TimerEvent: {}
+[66.714753] (-) TimerEvent: {}
+[66.815662] (-) TimerEvent: {}
+[66.916476] (-) TimerEvent: {}
+[67.017360] (-) TimerEvent: {}
+[67.118193] (-) TimerEvent: {}
+[67.219036] (-) TimerEvent: {}
+[67.319931] (-) TimerEvent: {}
+[67.420840] (-) TimerEvent: {}
+[67.521644] (-) TimerEvent: {}
+[67.622484] (-) TimerEvent: {}
+[67.723330] (-) TimerEvent: {}
+[67.824183] (-) TimerEvent: {}
+[67.925080] (-) TimerEvent: {}
+[68.026005] (-) TimerEvent: {}
+[68.126848] (-) TimerEvent: {}
+[68.227669] (-) TimerEvent: {}
+[68.328486] (-) TimerEvent: {}
+[68.429337] (-) TimerEvent: {}
+[68.530166] (-) TimerEvent: {}
+[68.631036] (-) TimerEvent: {}
+[68.731895] (-) TimerEvent: {}
+[68.832717] (-) TimerEvent: {}
+[68.933530] (-) TimerEvent: {}
+[69.034408] (-) TimerEvent: {}
+[69.135245] (-) TimerEvent: {}
+[69.236160] (-) TimerEvent: {}
+[69.337129] (-) TimerEvent: {}
+[69.438067] (-) TimerEvent: {}
+[69.539023] (-) TimerEvent: {}
+[69.639949] (-) TimerEvent: {}
+[69.740882] (-) TimerEvent: {}
+[69.841789] (-) TimerEvent: {}
+[69.942624] (-) TimerEvent: {}
+[70.043459] (-) TimerEvent: {}
+[70.144328] (-) TimerEvent: {}
+[70.245193] (-) TimerEvent: {}
+[70.346060] (-) TimerEvent: {}
+[70.446892] (-) TimerEvent: {}
+[70.547726] (-) TimerEvent: {}
+[70.648546] (-) TimerEvent: {}
+[70.749419] (-) TimerEvent: {}
+[70.850308] (-) TimerEvent: {}
+[70.951246] (-) TimerEvent: {}
+[71.052186] (-) TimerEvent: {}
+[71.153139] (-) TimerEvent: {}
+[71.254040] (-) TimerEvent: {}
+[71.354949] (-) TimerEvent: {}
+[71.455883] (-) TimerEvent: {}
+[71.556760] (-) TimerEvent: {}
+[71.657629] (-) TimerEvent: {}
+[71.758523] (-) TimerEvent: {}
+[71.859355] (-) TimerEvent: {}
+[71.960079] (-) TimerEvent: {}
+[72.060807] (-) TimerEvent: {}
+[72.161562] (-) TimerEvent: {}
+[72.262334] (-) TimerEvent: {}
+[72.363125] (-) TimerEvent: {}
+[72.463889] (-) TimerEvent: {}
+[72.564628] (-) TimerEvent: {}
+[72.665376] (-) TimerEvent: {}
+[72.766100] (-) TimerEvent: {}
+[72.866854] (-) TimerEvent: {}
+[72.967554] (-) TimerEvent: {}
+[73.068311] (-) TimerEvent: {}
+[73.169043] (-) TimerEvent: {}
+[73.269802] (-) TimerEvent: {}
+[73.370585] (-) TimerEvent: {}
+[73.471347] (-) TimerEvent: {}
+[73.572089] (-) TimerEvent: {}
+[73.672917] (-) TimerEvent: {}
+[73.773934] (-) TimerEvent: {}
+[73.875138] (-) TimerEvent: {}
+[73.976346] (-) TimerEvent: {}
+[74.077306] (-) TimerEvent: {}
+[74.178060] (-) TimerEvent: {}
+[74.278836] (-) TimerEvent: {}
+[74.379575] (-) TimerEvent: {}
+[74.480434] (-) TimerEvent: {}
+[74.581472] (-) TimerEvent: {}
+[74.682515] (-) TimerEvent: {}
+[74.783358] (-) TimerEvent: {}
+[74.884142] (-) TimerEvent: {}
+[74.984868] (-) TimerEvent: {}
+[75.037942] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable kinect_simulator\x1b[0m\n'}
+[75.085062] (-) TimerEvent: {}
+[75.163935] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_simulator\x1b[0m\n'}
+[75.185254] (-) TimerEvent: {}
+[75.286163] (-) TimerEvent: {}
+[75.387038] (-) TimerEvent: {}
+[75.487867] (-) TimerEvent: {}
+[75.588795] (-) TimerEvent: {}
+[75.689514] (-) TimerEvent: {}
+[75.790394] (-) TimerEvent: {}
+[75.891368] (-) TimerEvent: {}
+[75.992269] (-) TimerEvent: {}
+[76.093417] (-) TimerEvent: {}
+[76.194643] (-) TimerEvent: {}
+[76.295592] (-) TimerEvent: {}
+[76.396768] (-) TimerEvent: {}
+[76.497667] (-) TimerEvent: {}
+[76.598858] (-) TimerEvent: {}
+[76.699817] (-) TimerEvent: {}
+[76.801369] (-) TimerEvent: {}
+[76.902458] (-) TimerEvent: {}
+[77.003533] (-) TimerEvent: {}
+[77.104947] (-) TimerEvent: {}
+[77.206360] (-) TimerEvent: {}
+[77.307681] (-) TimerEvent: {}
+[77.408916] (-) TimerEvent: {}
+[77.510096] (-) TimerEvent: {}
+[77.611756] (-) TimerEvent: {}
+[77.713146] (-) TimerEvent: {}
+[77.814533] (-) TimerEvent: {}
+[77.915625] (-) TimerEvent: {}
+[78.016864] (-) TimerEvent: {}
+[78.118106] (-) TimerEvent: {}
+[78.219382] (-) TimerEvent: {}
+[78.320587] (-) TimerEvent: {}
+[78.421909] (-) TimerEvent: {}
+[78.523424] (-) TimerEvent: {}
+[78.624220] (-) TimerEvent: {}
+[78.725401] (-) TimerEvent: {}
+[78.826173] (-) TimerEvent: {}
+[78.927182] (-) TimerEvent: {}
+[79.028203] (-) TimerEvent: {}
+[79.128945] (-) TimerEvent: {}
+[79.229814] (-) TimerEvent: {}
+[79.330655] (-) TimerEvent: {}
+[79.431856] (-) TimerEvent: {}
+[79.532905] (-) TimerEvent: {}
+[79.633827] (-) TimerEvent: {}
+[79.734793] (-) TimerEvent: {}
+[79.835682] (-) TimerEvent: {}
+[79.936605] (-) TimerEvent: {}
+[80.037479] (-) TimerEvent: {}
+[80.138235] (-) TimerEvent: {}
+[80.239193] (-) TimerEvent: {}
+[80.340028] (-) TimerEvent: {}
+[80.441342] (-) TimerEvent: {}
+[80.542161] (-) TimerEvent: {}
+[80.643182] (-) TimerEvent: {}
+[80.743986] (-) TimerEvent: {}
+[80.844847] (-) TimerEvent: {}
+[80.945828] (-) TimerEvent: {}
+[81.046824] (-) TimerEvent: {}
+[81.147820] (-) TimerEvent: {}
+[81.248578] (-) TimerEvent: {}
+[81.349378] (-) TimerEvent: {}
+[81.450203] (-) TimerEvent: {}
+[81.551454] (-) TimerEvent: {}
+[81.652501] (-) TimerEvent: {}
+[81.753614] (-) TimerEvent: {}
+[81.854762] (-) TimerEvent: {}
+[81.955938] (-) TimerEvent: {}
+[82.057046] (-) TimerEvent: {}
+[82.157979] (-) TimerEvent: {}
+[82.258737] (-) TimerEvent: {}
+[82.359491] (-) TimerEvent: {}
+[82.435153] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] Built target kinect_simulator\n'}
+[82.459685] (-) TimerEvent: {}
+[82.496871] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] Built target lidar_simulator\n'}
+[82.545346] (very_simple_robot_simulator) CommandEnded: {'returncode': 0}
+[82.559875] (-) TimerEvent: {}
+[82.620977] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'install'}
+[82.630099] (very_simple_robot_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator'], 'cwd': '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paulo'), ('LC_TIME', 'es_CL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paulo'), ('OLDPWD', '/home/paulo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CL.UTF-8'), ('SYSTEMD_EXEC_PID', '1923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_mini_tarea_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paulo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paulo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Jose:@/tmp/.ICE-unix/1708,unix/Jose:/tmp/.ICE-unix/1708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13f1d41c_b7e7_4193_8a26_aec9c0da0061'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9G3P42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CL.UTF-8'), ('LC_IDENTIFICATION', 'es_CL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/very_simple_robot_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CL.UTF-8'), ('LC_PAPER', 'es_CL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[82.660139] (-) TimerEvent: {}
+[82.664008] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[82.719146] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[82.721061] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator\n'}
+[82.757347] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator\n'}
+[82.760361] (-) TimerEvent: {}
+[82.794575] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh\n'}
+[82.831700] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv\n'}
+[82.860557] (-) TimerEvent: {}
+[82.870132] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[82.907394] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[82.944377] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[82.960776] (-) TimerEvent: {}
+[82.981679] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[83.020460] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py\n'}
+[83.057628] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py\n'}
+[83.060959] (-) TimerEvent: {}
+[83.094412] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py\n'}
+[83.131829] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py\n'}
+[83.161187] (-) TimerEvent: {}
+[83.168179] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py\n'}
+[83.204867] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py\n'}
+[83.241377] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py\n'}
+[83.261422] (-) TimerEvent: {}
+[83.279101] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml\n'}
+[83.316608] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml\n'}
+[83.352861] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml\n'}
+[83.361601] (-) TimerEvent: {}
+[83.389401] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml\n'}
+[83.426794] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml\n'}
+[83.461836] (-) TimerEvent: {}
+[83.462890] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml\n'}
+[83.500337] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml\n'}
+[83.537825] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator\n'}
+[83.562069] (-) TimerEvent: {}
+[83.574395] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator\n'}
+[83.611343] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh\n'}
+[83.647749] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv\n'}
+[83.662309] (-) TimerEvent: {}
+[83.684055] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh\n'}
+[83.720838] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv\n'}
+[83.756898] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash\n'}
+[83.762476] (-) TimerEvent: {}
+[83.793199] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh\n'}
+[83.829677] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh\n'}
+[83.862698] (-) TimerEvent: {}
+[83.866797] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv\n'}
+[83.903153] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv\n'}
+[83.939796] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator\n'}
+[83.962914] (-) TimerEvent: {}
+[83.976478] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake\n'}
+[84.013142] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake\n'}
+[84.049659] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml\n'}
+[84.063096] (-) TimerEvent: {}
+[84.163966] (-) TimerEvent: {}
+[84.264755] (-) TimerEvent: {}
+[84.365461] (-) TimerEvent: {}
+[84.401049] (very_simple_robot_simulator) StdoutLine: {'line': b"Listing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...\n"}
+[84.401749] (very_simple_robot_simulator) StdoutLine: {'line': b"Compiling '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py'...\n"}
+[84.430107] (very_simple_robot_simulator) CommandEnded: {'returncode': 0}
+[84.466086] (-) TimerEvent: {}
+[84.487444] (very_simple_robot_simulator) JobEnded: {'identifier': 'very_simple_robot_simulator', 'rc': 0}
+[84.491418] (-) EventReactorShutdown: {}

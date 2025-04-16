@@ -1,0 +1,1 @@
+/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux/ament_cmake_environment_hooks/local_setup.sh

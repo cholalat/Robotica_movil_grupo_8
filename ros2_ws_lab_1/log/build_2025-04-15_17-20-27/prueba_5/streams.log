@@ -1,0 +1,25 @@
+[3.173s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prueba_5 build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log --single-version-externally-managed install_data
+[4.367s] running egg_info
+[4.370s] writing ../../build/prueba_5/prueba_5.egg-info/PKG-INFO
+[4.371s] writing dependency_links to ../../build/prueba_5/prueba_5.egg-info/dependency_links.txt
+[4.372s] writing entry points to ../../build/prueba_5/prueba_5.egg-info/entry_points.txt
+[4.373s] writing requirements to ../../build/prueba_5/prueba_5.egg-info/requires.txt
+[4.374s] writing top-level names to ../../build/prueba_5/prueba_5.egg-info/top_level.txt
+[4.382s] reading manifest file '../../build/prueba_5/prueba_5.egg-info/SOURCES.txt'
+[4.387s] writing manifest file '../../build/prueba_5/prueba_5.egg-info/SOURCES.txt'
+[4.388s] running build
+[4.388s] running build_py
+[4.389s] copying prueba_5/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build/lib/prueba_5
+[4.390s] running install
+[4.392s] running install_lib
+[4.396s] copying /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build/lib/prueba_5/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5
+[4.399s] byte-compiling /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5/dead_reckoning_nav.py to dead_reckoning_nav.cpython-310.pyc
+[4.404s] running install_data
+[4.405s] running install_egg_info
+[4.413s] removing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5-0.0.0-py3.10.egg-info' (and everything under it)
+[4.415s] Copying ../../build/prueba_5/prueba_5.egg-info to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5-0.0.0-py3.10.egg-info
+[4.419s] running install_scripts
+[4.513s] Installing pose_loader script to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/prueba_5
+[4.514s] Installing test_node script to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/prueba_5
+[4.516s] writing list of installed files to '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log'
+[4.614s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/prueba_5' returned '0': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/prueba_5 build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log --single-version-externally-managed install_data

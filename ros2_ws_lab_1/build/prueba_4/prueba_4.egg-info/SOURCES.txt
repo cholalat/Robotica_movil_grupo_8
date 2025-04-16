@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/prueba_4/prueba_4.egg-info/PKG-INFO
+../../build/prueba_4/prueba_4.egg-info/SOURCES.txt
+../../build/prueba_4/prueba_4.egg-info/dependency_links.txt
+../../build/prueba_4/prueba_4.egg-info/entry_points.txt
+../../build/prueba_4/prueba_4.egg-info/requires.txt
+../../build/prueba_4/prueba_4.egg-info/top_level.txt
+../../build/prueba_4/prueba_4.egg-info/zip-safe
+prueba_4/__init__.py
+prueba_4/dead_reckoning_nav.py
+resource/prueba_4
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

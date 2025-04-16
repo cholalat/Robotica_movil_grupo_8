@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5595686e8a934bb38e10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmd_vel_mux",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_vel_mux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_vel_mux-41f1ce468c324e22bcf6.json",
+					"name" : "cmd_vel_mux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_vel_mux_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_vel_mux_node-0cdc519ce7d2328f8dcc.json",
+					"name" : "cmd_vel_mux_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_vel_mux_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_vel_mux_uninstall-333feb4bd3e492567e1b.json",
+					"name" : "cmd_vel_mux_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-12a65a6c884df59087bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/cmd_vel_mux",
+		"source" : "/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/cmd_vel_mux"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

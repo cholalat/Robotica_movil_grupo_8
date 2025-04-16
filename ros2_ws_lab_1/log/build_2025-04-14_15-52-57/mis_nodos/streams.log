@@ -1,0 +1,36 @@
+[1.685s] Invoking command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/mis_nodos': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mis_nodos build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/install.log --single-version-externally-managed install_data
+[1.992s] running egg_info
+[1.993s] creating ../../build/mis_nodos/mis_nodos.egg-info
+[1.993s] writing ../../build/mis_nodos/mis_nodos.egg-info/PKG-INFO
+[1.993s] writing dependency_links to ../../build/mis_nodos/mis_nodos.egg-info/dependency_links.txt
+[1.994s] writing entry points to ../../build/mis_nodos/mis_nodos.egg-info/entry_points.txt
+[1.994s] writing requirements to ../../build/mis_nodos/mis_nodos.egg-info/requires.txt
+[1.994s] writing top-level names to ../../build/mis_nodos/mis_nodos.egg-info/top_level.txt
+[1.994s] writing manifest file '../../build/mis_nodos/mis_nodos.egg-info/SOURCES.txt'
+[1.996s] reading manifest file '../../build/mis_nodos/mis_nodos.egg-info/SOURCES.txt'
+[1.997s] writing manifest file '../../build/mis_nodos/mis_nodos.egg-info/SOURCES.txt'
+[1.997s] running build
+[1.997s] running build_py
+[1.997s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build
+[1.998s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib
+[1.998s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib/mis_nodos
+[1.998s] copying mis_nodos/__init__.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib/mis_nodos
+[1.998s] copying mis_nodos/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib/mis_nodos
+[1.998s] running install
+[1.998s] running install_lib
+[1.999s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos
+[1.999s] copying /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib/mis_nodos/__init__.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos
+[1.999s] copying /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build/lib/mis_nodos/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos
+[2.000s] byte-compiling /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos/__init__.py to __init__.cpython-310.pyc
+[2.000s] byte-compiling /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos/dead_reckoning_nav.py to dead_reckoning_nav.cpython-310.pyc
+[2.000s] running install_data
+[2.001s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/share/ament_index
+[2.001s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/share/ament_index/resource_index
+[2.001s] creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/share/ament_index/resource_index/packages
+[2.001s] copying resource/mis_nodos -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/share/ament_index/resource_index/packages
+[2.001s] copying package.xml -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/share/mis_nodos
+[2.001s] running install_egg_info
+[2.003s] Copying ../../build/mis_nodos/mis_nodos.egg-info to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages/mis_nodos-0.0.0-py3.10.egg-info
+[2.004s] running install_scripts
+[2.030s] writing list of installed files to '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/install.log'
+[2.060s] Invoked command in '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/src/mis_nodos' returned '0': PYTHONPATH=/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/mis_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mis_nodos build --build-base /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/build install --record /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/mis_nodos/install.log --single-version-externally-managed install_data

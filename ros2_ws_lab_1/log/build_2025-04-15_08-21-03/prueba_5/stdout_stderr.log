@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/prueba_5/prueba_5.egg-info/PKG-INFO
+writing dependency_links to ../../build/prueba_5/prueba_5.egg-info/dependency_links.txt
+writing entry points to ../../build/prueba_5/prueba_5.egg-info/entry_points.txt
+writing requirements to ../../build/prueba_5/prueba_5.egg-info/requires.txt
+writing top-level names to ../../build/prueba_5/prueba_5.egg-info/top_level.txt
+reading manifest file '../../build/prueba_5/prueba_5.egg-info/SOURCES.txt'
+writing manifest file '../../build/prueba_5/prueba_5.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/prueba_5/prueba_5.egg-info to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/python3.10/site-packages/prueba_5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_5/lib/prueba_5
+writing list of installed files to '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_5/install.log'

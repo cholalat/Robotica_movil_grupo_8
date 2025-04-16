@@ -1,0 +1,32 @@
+running develop
+Removing /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba-4.egg-link (link to .)
+running egg_info
+writing ../../build/prueba_4/prueba_4.egg-info/PKG-INFO
+writing dependency_links to ../../build/prueba_4/prueba_4.egg-info/dependency_links.txt
+writing entry points to ../../build/prueba_4/prueba_4.egg-info/entry_points.txt
+writing requirements to ../../build/prueba_4/prueba_4.egg-info/requires.txt
+writing top-level names to ../../build/prueba_4/prueba_4.egg-info/top_level.txt
+reading manifest file '../../build/prueba_4/prueba_4.egg-info/SOURCES.txt'
+writing manifest file '../../build/prueba_4/prueba_4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build
+creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib
+creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib/prueba_4
+copying prueba_4/__init__.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib/prueba_4
+copying prueba_4/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib/prueba_4
+running install
+running install_lib
+creating /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4
+copying /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib/prueba_4/__init__.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4
+copying /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/build/lib/prueba_4/dead_reckoning_nav.py -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4
+byte-compiling /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4/dead_reckoning_nav.py to dead_reckoning_nav.cpython-310.pyc
+running install_data
+copying resource/prueba_4 -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/share/ament_index/resource_index/packages
+copying package.xml -> /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/share/prueba_4
+running install_egg_info
+Copying ../../build/prueba_4/prueba_4.egg-info to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/python3.10/site-packages/prueba_4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dead_reckoning_nav script to /home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/install/prueba_4/lib/prueba_4
+writing list of installed files to '/home/paulo/universidad/5to_semestre/robotica_movil/ros2_ws_lab_1/build/prueba_4/install.log'
