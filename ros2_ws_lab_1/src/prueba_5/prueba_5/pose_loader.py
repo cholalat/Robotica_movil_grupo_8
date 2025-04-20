@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String, Int32MultiArray
+from std_msgs.msg import String, Float32MultiArray
 import sys
 import time
 import os
@@ -10,7 +10,7 @@ class MyNode(Node):
         super().__init__('ricardo' + str(int(time.time() * 10000)))
 
         # publicador
-        self.publisher = self.create_publisher(Int32MultiArray, "goal_list", 10)
+        self.publisher = self.create_publisher(Float32MultiArray, "goal_list", 10)
         timer_period = 0.5
         # self.timer = self.create_timer(timer_period, self.timer_callback)
         self.archivo = []
@@ -30,13 +30,13 @@ class MyNode(Node):
 
                 linea = linea.strip()
                 linea = linea.split(",")
-                linea = list(map(int, linea))
+                linea = list(map(float, linea))
 
                 self.archivo += linea
                 self.i += 1
                 time.sleep(0.1)
 
-            msg = Int32MultiArray()
+            msg = Float32MultiArray()
             msg.data = self.archivo
             self.publisher.publish(msg)
             self.get_logger().info('Publishing: "%s"' % msg.data)
