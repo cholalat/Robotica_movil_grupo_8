@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find-pkg-share very_simple_robot_simulator)/launch/run_all.xml"/>
+
+
+    <node pkg="prueba_5" exec="pose_loader" name="pose_loader"/>
+    
+    <node pkg="prueba_5" exec="test_node" name="dead_reckoning"/>
+</launch>

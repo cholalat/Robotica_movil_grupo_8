@@ -41,9 +41,13 @@ class DeadReckoningNav(Node):
         msg.linear.x = float(speed_command_list[0])
         msg.angular.z = float(speed_command_list[1])
 
+        tiempo_rotacion = speed_command_list[2]
         self.tiempo_actual = time.time()
 
-        while abs(time.time() - self.tiempo_actual) < float(abs(speed_command_list[2])):
+        if speed_command_list[1] != 0:
+            tiempo_rotacion = speed_command_list[2] * 1.1
+
+        while abs(time.time() - self.tiempo_actual) < abs(tiempo_rotacion):
             self.publisher.publish(msg)
 
 
@@ -118,7 +122,7 @@ class DeadReckoningNav(Node):
 
         #Corregir angulo
         orientacion_final = (math.radians(goal_pose[2]) - self.orientacion_actual) % (2 * math.pi)
-        if orientacion_final > math.pi:                 # Si está en (π, 2π)
+        if orientacion_final > math.pi:
             orientacion_final -= 2 * math.pi
 
         if orientacion_final != round(0, 3):
@@ -130,47 +134,6 @@ class DeadReckoningNav(Node):
             self.aplicar_velocidad([0, velocidad_5, tiempo_5], "Colocando angulo final pedido")
 
 
-
-
-
-
-    # def mover_robot_a_destino(self, goal_pose): #Angulos y velocidades para llegar al punto
-    #     vel_lineal = 0.2
-    #     vel_angular = 1
-
-    #     coordenada_1 = goal_pose[0] - self.pos_actual_x
-    #     tiempo_1 = abs(coordenada_1/ vel_lineal)
-
-    #     coordenada_2 = goal_pose[1] - self.pos_actual_y
-    #     tiempo_2 = abs(coordenada_2/ vel_lineal)
-
-    #     tiempo_rotacion_correccion = 0
-    #     if coordenada_2 != 0:
-    #         tiempo_rotacion_correccion = ((math.pi/2) - self.orientacion_actual) / vel_angular
-
-    #     # print(coordenada_1, coordenada_2)
-    #     # if coordenada_1 < 0:
-    #     #     tiempo_media_vuelta = math.pi - self.orientacion_actual/vel_angular
-    #     #     self.aplicar_velocidad([0, vel_angular,tiempo_media_vuelta], "-a")
-
-    #     self.aplicar_velocidad([vel_lineal, 0,tiempo_1], "a") 
-
-    #     self.aplicar_velocidad([0, vel_angular,tiempo_rotacion_correccion], "b")
-
-    #     self.aplicar_velocidad([vel_lineal, 0,tiempo_2], "c")
-
-
-    #     angulo_final = math.radians(goal_pose[2]) - self.orientacion_actual
-    #     tiempo_3 = abs(angulo_final/ vel_angular)
-    #     velocidad = vel_angular
-    #     if angulo_final < 0:
-    #         velocidad = -vel_angular
-
-    #     self.aplicar_velocidad([0, velocidad,tiempo_3], "d")
-
-
-
-        #aplicar_velocidad(destino)
 
 
 
